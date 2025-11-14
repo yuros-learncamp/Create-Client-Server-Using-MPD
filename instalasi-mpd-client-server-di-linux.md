@@ -166,7 +166,7 @@ Ketika semua step di bagian 2.3 sudah dijalankan seperti pemasangan IP, port, da
 | **Gateway** | 192.168.43.1 |
 | **Server IP** | 192.168.43.176 |
 | **Hostname** | mpd |
-| **OS** | Debian |
+| **OS** | Mint |
 
 ### Services & Ports
 
