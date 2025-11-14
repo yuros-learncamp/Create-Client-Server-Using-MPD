@@ -97,7 +97,22 @@ Portnya:
 ```
 export MPD_PORT=6600
 ```
-Jika sudah, lagu bisa langsung didengarkan dengan command
+
+### 2.3 Konfigurasi M.A.L.P
+Setelah download M.A.L.P di Play Store, klik garis 3 ☰ di atas kiri dan klik *Profiles* di kolum *Settings*, lalu klik tombol + di atas kanan.
+
+<img width="422" height="57" alt="Screenshot_779" src="https://github.com/user-attachments/assets/c9dfba85-6be0-4497-98a1-f7ded371fc10" />
+
+
+Jika sudah, kalian akan ditujukan ke *Edit profile*, di sana kalian harus masukkan: *Profile name*, *hostname atau IP*, *port*, dan yang terakhir aktifkan *Enable streaming from server* yang berisi link dari MPD, jika sudah save 
+
+<img width="417" height="553" alt="Screenshot_780" src="https://github.com/user-attachments/assets/45ae69c6-6e49-4d81-9d10-76cedf2d7acf" />
+
+
+## 3. Testing dan Penggunaan
+
+### 3.1 Testing dengan MPC
+Jika sudah instalasi dan konfig IP dan port MPC, lagu bisa langsung didengarkan dengan command
 ```
 mpc play
 ```
@@ -111,36 +126,21 @@ Jika ingin tau lagu apa yang sedang diputar, jalankan command
 ```
 mpc status
 ```
-![mpd 4](https://github.com/user-attachments/assets/972c6bc3-31b3-404a-b549-69bd32a1c514)
 
+![mpd 4](https://github.com/user-attachments/assets/6520571d-7efc-425d-8533-a5dcde168eb2)
+#### Image bukti testing MPD
 
-### 2.3 Konfigurasi M.A.L.P
-Setelah download M.A.L.P di Play Store, klik garis 3 ☰ di atas kiri dan klik *Profiles* di kolum *Settings*, lalu klik tombol + di atas kanan.
-
-<img width="422" height="57" alt="Screenshot_779" src="https://github.com/user-attachments/assets/c9dfba85-6be0-4497-98a1-f7ded371fc10" />
-
-
-Jika sudah, kalian akan ditujukan ke *Edit profile*, di sana kalian harus masukkan: *Profile name*, *hostname atau IP*, *port*, dan yang terakhir aktifkan *Enable streaming from server* yang berisi link dari MPD, jika sudah save 
-
-<img width="417" height="553" alt="Screenshot_780" src="https://github.com/user-attachments/assets/45ae69c6-6e49-4d81-9d10-76cedf2d7acf" />
-
-
-
-Ketika semua sudah dijalankan, pergi ke website dengan URL yang sudah kalian letakkan di *Streaming URL* dan lagu siap didengarkan
+### 3.2 Testing dengan M.A.L.P
+Ketika semua step di bagian 2.3 sudah dijalankan seperti pemasangan IP, port, dan URL, pergi ke website dengan URL yang sudah kalian letakkan di *Streaming URL* dan lagu siap didengarkan
 
 <img width="413" height="561" alt="Screenshot_781" src="https://github.com/user-attachments/assets/b38d6075-1074-4742-a131-5eb085b782c9" />
 
 
-## 3. Testing dan Penggunaan
-
-### 3.1 Testing dengan MPC
-
-
-### 3.2 Testing dengan M.A.L.P
-
-
 # 4. Topologi Client Server MPD
 ## 4.1 Image Topologi
+
+![diagram (2)](https://github.com/user-attachments/assets/8ae267a0-1b36-45cc-baa5-b92601107767)
+
 
 ## 4.2 Penjelasan Topologi
 
@@ -149,5 +149,6 @@ Ketika semua sudah dijalankan, pergi ke website dengan URL yang sudah kalian let
 <img width="1366" height="768" alt="MPD Server" src="https://github.com/user-attachments/assets/908f501e-b710-4d3c-9fec-6f34b8c645e6" />
 
 ## 5.2 Image MPC Client Server
+
 
 ## 5.3 Image M.A.L.P Client Server
