@@ -67,27 +67,41 @@ sudo systemctl enable mpd
 ```
 
 ## 2. Setup Client MPD
-Langkah selanjutnya adalah menginstall Client MPD, disini saya akan mencontohkan dengan 3 MPD Client berbeda yaitu: MPC, ncmpcpp, dan MILP.
+Langkah selanjutnya adalah menginstall Client MPD, disini saya akan mencontohkan dengan 2 MPD Client berbeda yaitu: MPC, dan M.A.L.P.
 ### 2.1 Instalasi MPD Client
-**Instalasi MPC**
+**A. Instalasi MPC**
 
-**Instalasi ncmpcpp**
+Buka linux Debian pada perangkat desktop atau laptop lain, kemudian masuk ke dalam terminal. Setelah itu masukkan password linuxnya dan ketik Syntax berikut:
+```
+sudo apt install mpc -y
+```
+Untuk Linux Arch menggunakan Syntax:
+```
 
-**Instalasi MILP**
+```
+
+**B. Instalasi M.A.L.P**
+
+Untuk MPD Client menggunakan M.A.L.P hanya khusus perangkat seperti handphone. Cara installnya juga cukup mudah, anda hanya perlu masuk ke ```Play Store``` dan ketik ```M.A.L.P``` kemudian unduh.
 
 ### 2.2 Konfigurasi MPC
 
-### 2.3 Konfigurasi ncmpcpp 
-
-### 2.4 Konfigurasi MILP
+### 2.4 Konfigurasi M.A.L.P
 
 
 ## 3. Testing dan Penggunaan
 
 ### 3.1 Testing dengan MPC
 
-### 3.2 Testing dengan ncmpcpp
+### 3.2 Testing dengan M.A.L.P
 
-### 3.3 Testing dengan MILP
 
-### 3.4 Testing HTTP Streaming
+# 4. Topologi Client Server MPD
+
+# 5. Dokumentasi
+## 5.1 Dokumentasi Install MPD Server
+<img width="1366" height="768" alt="MPD Server" src="https://github.com/user-attachments/assets/908f501e-b710-4d3c-9fec-6f34b8c645e6" />
+
+## 5.2 Dokumentasi MPC Client Server
+
+## 5.3 Dokumentasi M.A.L.P Client Server
