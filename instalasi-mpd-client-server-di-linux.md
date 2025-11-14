@@ -97,11 +97,14 @@ Untuk MPD Client menggunakan M.A.L.P hanya khusus perangkat seperti handphone. C
 
 
 # 4. Topologi Client Server MPD
+## 4.1 Image Topologi
 
-# 5. Dokumentasi
-## 5.1 Dokumentasi Install MPD Server
+## 4.2 Penjelasan Topologi
+
+# 5. Image
+## 5.1 Image Install MPD Server
 <img width="1366" height="768" alt="MPD Server" src="https://github.com/user-attachments/assets/908f501e-b710-4d3c-9fec-6f34b8c645e6" />
 
-## 5.2 Dokumentasi MPC Client Server
+## 5.2 Image MPC Client Server
 
-## 5.3 Dokumentasi M.A.L.P Client Server
+## 5.3 Image M.A.L.P Client Server
