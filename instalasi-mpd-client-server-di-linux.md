@@ -83,15 +83,58 @@ sudo pacman -S mpc
 
 Untuk MPD Client menggunakan M.A.L.P hanya khusus perangkat seperti handphone. Cara installnya juga cukup mudah, anda hanya perlu masuk ke ```Play Store``` dan ketik ```M.A.L.P``` kemudian unduh.
 
+> [!NOTE]
+> Sebelum lanjut, penting untuk cek IP dengan ketik di terminal
+>```hostname -I```
+> dan cek port dengan ketik ```sudo nano /etc/mpd.conf``` di terminal dan cari portnya dengan mudah dengan cara <kbd>Ctrl</kbd> + <kbd>W</kbd> lalu cari "port", di situ akan muncul berapa port yang anda pakai
+
 ### 2.2 Konfigurasi MPC
+Setelah instal MPC lewat terminal, export IP yang tertera, jika di Arch, gunakan (contoh)
+```
+export MPD_HOST=172.19.162.32
+```
+Portnya:
+```
+export MPD_PORT=6600
+```
+Jika sudah, lagu bisa langsung didengarkan dengan command
+```
+mpc play
+```
+Lalu pergi dengan URL IP dan Port, yaitu (jika mengikuti contoh):
+https://172.19.162.32:8000
+> [!NOTE]
+> Port 6600 untuk MPD Control Protocol dan
+> Port 8000 untuk HTTP Audio Stream
+
+Jika ingin tau lagu apa yang sedang diputar, jalankan command
+```
+mpc status
+```
+![mpd 4](https://github.com/user-attachments/assets/972c6bc3-31b3-404a-b549-69bd32a1c514)
 
 
-### 2.4 Konfigurasi M.A.L.P
+### 2.3 Konfigurasi M.A.L.P
+Setelah download M.A.L.P di Play Store, klik garis 3 ☰ di atas kiri dan klik *Profiles* di kolum *Settings*, lalu klik tombol + di atas kanan.
+
+<img width="422" height="57" alt="Screenshot_779" src="https://github.com/user-attachments/assets/c9dfba85-6be0-4497-98a1-f7ded371fc10" />
+
+
+Jika sudah, kalian akan ditujukan ke *Edit profile*, di sana kalian harus masukkan: *Profile name*, *hostname atau IP*, *port*, dan yang terakhir aktifkan *Enable streaming from server* yang berisi link dari MPD, jika sudah save 
+
+<img width="417" height="553" alt="Screenshot_780" src="https://github.com/user-attachments/assets/45ae69c6-6e49-4d81-9d10-76cedf2d7acf" />
+
+
+
+Ketika semua sudah dijalankan, pergi ke website dengan URL yang sudah kalian letakkan di *Streaming URL* dan lagu siap didengarkan
+
+<img width="413" height="561" alt="Screenshot_781" src="https://github.com/user-attachments/assets/b38d6075-1074-4742-a131-5eb085b782c9" />
 
 
 ## 3. Testing dan Penggunaan
 
 ### 3.1 Testing dengan MPC
+
 
 ### 3.2 Testing dengan M.A.L.P
 
