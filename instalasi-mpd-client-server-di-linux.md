@@ -74,7 +74,7 @@ Langkah selanjutnya adalah menginstall Client MPD, disini saya akan mencontohkan
 ### 2.1 Instalasi MPD Client
 **A. Instalasi MPC**
 
-Buka linux Debian pada perangkat desktop atau laptop lain, kemudian masuk ke dalam terminal. Setelah itu masukkan password linuxnya dan ketik Syntax berikut:
+Buka Linux pada perangkat desktop atau laptop lain, kemudian masuk ke dalam terminal. Setelah itu masukkan password linuxnya dan ketik Syntax berikut:
 ```
 sudo apt install mpc -y
 ```
