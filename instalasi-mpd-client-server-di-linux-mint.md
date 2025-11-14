@@ -1,4 +1,4 @@
-# Panduan Instalasi MPD Client-Server di Linux
+# Panduan Instalasi MPD Client-Server di Linux Mint
 Sebelum melakukan instalasi MPD Client-Server, masuk ke dalam terminal Linux dan ketik Syntax berikut. Lalu masukkan password linux anda:
 ```
 sudo apt update
