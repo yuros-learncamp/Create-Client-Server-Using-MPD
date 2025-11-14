@@ -24,14 +24,16 @@ Diubah menjadi seperti berikut:
 ```
 music_directory    "/home/bagas/Music"
 ```
-*Note: Jika pada folder musik belum ada musik sama sekali, maka tambahkan musik terlebih dahulu.*
+> [!NOTE]
+> Jika pada folder musik belum ada musik sama sekali, maka tambahkan musik terlebih dahulu.
 
 ### 1.4 Setup Bind to Address
 Langkah selanjutnya adalah mengubah ```bind_to_address```. Lakukan pencarian cepat seperti sebelumnya, kemudian ubah```bind_to_address``` menjadi:
 ```
 bind_to_address    "0.0.0.0"
 ```
-*Note: Jika masih ada tanda ```#```, hapus terlebih dahulu.*
+> [!NOTE]
+> Jika masih ada tanda ```#```, hapus terlebih dahulu.
 
 ### 1.5 Tambahkan HTTP Stream
 Scroll pada konfigurasi nano MPD Server sampai dibagian paling bawah. Cara cepatnya dengan menekan ```CTRL + End```, lalu tambahkan Syntax berikut:
