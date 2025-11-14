@@ -14,7 +14,6 @@
 
 ### 1.6 Verifikasi Instalasi Server
 
----
 
 ## 2. Setup Client MPD
 
@@ -26,7 +25,6 @@
 
 ### 2.4 Konfigurasi MILP Client
 
----
 
 ## 3. Testing dan Penggunaan
 
@@ -38,6 +36,5 @@
 
 ### 3.4 Testing HTTP Streaming
 
----
 
 ## 4. Troubleshooting
