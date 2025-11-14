@@ -210,7 +210,8 @@ Client (8000) → HTTP Stream → Vorbis Audio
 
 Server ini digunakan untuk berbagi musik dengan teman dalam satu jaringan lokal. Semua client dapat mengontrol playback yang sama dan mendengarkan audio secara realtime melalui HTTP stream atau langsung dari speaker laptop server.
 
-**Catatan**: Setup ini hanya untuk jaringan lokal
+> [!NOTE]
+> Setup ini hanya untuk jaringan lokal
 
 #### Bukti Instalasi MPD Server
 <img width="1366" height="768" alt="MPD Server" src="https://github.com/user-attachments/assets/908f501e-b710-4d3c-9fec-6f34b8c645e6" />
