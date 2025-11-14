@@ -63,7 +63,8 @@ sudo systemctl status mpd
 ```
 Jika sudah running dan tidak ada error, maka MPD Server sudah dapat dijalankan dengan baik!
 
-**Tambahan: Agar MPD otomatis jalan saat komputer boot, masukkan Sytax berikut:**
+> [!NOTE]
+> Agar MPD otomatis jalan saat komputer boot, masukkan Sytax berikut:
 ```
 sudo systemctl enable mpd
 ```
@@ -209,11 +210,5 @@ Server ini digunakan untuk berbagi musik dengan teman dalam satu jaringan lokal.
 
 **Catatan**: Setup ini hanya untuk jaringan lokal
 
-# 5. Image
-## 5.1 Image Install MPD Server
+#### Bukti Instalasi MPD Server
 <img width="1366" height="768" alt="MPD Server" src="https://github.com/user-attachments/assets/908f501e-b710-4d3c-9fec-6f34b8c645e6" />
-
-## 5.2 Image MPC Client Server
-
-
-## 5.3 Image M.A.L.P Client Server
