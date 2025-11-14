@@ -127,7 +127,7 @@ https://172.19.162.32:8000
 > Port 6600 untuk MPD Control Protocol dan
 > Port 8000 untuk HTTP Audio Stream
 
-Jika ingin tau lagu apa yang sedang diputar, jalankan command
+Jika ingin tahu lagu apa yang sedang diputar, jalankan command
 ```
 mpc status
 ```
