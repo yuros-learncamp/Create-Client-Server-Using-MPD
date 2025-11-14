@@ -77,14 +77,14 @@ sudo apt install mpc -y
 ```
 Untuk Linux Arch menggunakan Syntax:
 ```
-
+sudo pacman -S mpc
 ```
-
 **B. Instalasi M.A.L.P**
 
 Untuk MPD Client menggunakan M.A.L.P hanya khusus perangkat seperti handphone. Cara installnya juga cukup mudah, anda hanya perlu masuk ke ```Play Store``` dan ketik ```M.A.L.P``` kemudian unduh.
 
 ### 2.2 Konfigurasi MPC
+
 
 ### 2.4 Konfigurasi M.A.L.P
 
