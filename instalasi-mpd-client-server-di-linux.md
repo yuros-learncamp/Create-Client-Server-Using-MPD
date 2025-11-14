@@ -143,6 +143,69 @@ Ketika semua step di bagian 2.3 sudah dijalankan seperti pemasangan IP, port, da
 
 
 ## 4.2 Penjelasan Topologi
+## 4.2 Topologi Jaringan
+
+### Arsitektur Jaringan
+
+Setup MPD server ini berjalan pada jaringan lokal pribadi dengan arsitektur client-server, memungkinkan beberapa client mengakses music server yang sama.
+
+![MPD Network Topology](link-to-your-diagram)
+
+### Konfigurasi Jaringan
+
+| Komponen | Detail |
+|-----------|---------|
+| **Network Range** | 192.168.43.0/24 |
+| **Gateway** | 192.168.43.1 |
+| **Server IP** | 192.168.43.176 |
+| **Hostname** | mpd |
+| **OS** | Debian |
+
+### Services & Ports
+
+| Service | Port | Fungsi |
+|---------|------|---------|
+| **MPD Protocol** | 6600 | Kontrol dan komunikasi client |
+| **HTTP Stream** | 8000 | Streaming audio (Ogg Vorbis) |
+
+**Firewall**: UFW dengan port 6600 dan 8000 dibuka untuk akses LAN.
+
+### Lokasi Data
+
+```
+Music Library : /home/bagas/Music/
+MPD Database  : /home/bagas/.mpd/tag_cache
+Audio Output  : ALSA (Speaker laptop)
+Stream Format : Vorbis 44.1kHz 16-bit Stereo
+```
+
+### Akses Client
+
+**1. Local Client (Mesin yang Sama)**
+- Koneksi: `localhost:6600`
+- Client: mpc / ncmpcpp
+
+**2. Remote Clients (LAN)**
+- Koneksi: `192.168.43.176:6600` (MPD protocol)
+- Koneksi: `http://192.168.43.176:8000` (HTTP stream)
+- Client: mpc (laptop teman), M.A.L.P (smartphone teman)
+
+### Alur Koneksi
+
+```
+Download MP3 → /home/bagas/Music/ → Update MPD Database
+                                   ↓
+Client (6600) → MPD Server → ALSA Output → Speaker
+Client (8000) → HTTP Stream → Vorbis Audio
+```
+
+### Penggunaan
+
+Server ini digunakan untuk berbagi musik dengan teman dalam satu jaringan lokal. Semua client dapat mengontrol playback yang sama dan mendengarkan audio secara realtime melalui HTTP stream atau langsung dari speaker laptop server.
+
+---
+
+**Catatan**: Setup ini hanya untuk jaringan lokal
 
 # 5. Image
 ## 5.1 Image Install MPD Server
