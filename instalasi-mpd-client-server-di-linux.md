@@ -1,5 +1,5 @@
-# Panduan Instalasi MPD Client-Server di Debian Linux
-Sebelum melakukan instalasi MPD Client-Server, masuk ke dalam terminal Linux Debian dan ketik Syntax berikut. Lalu masukkan password linux anda:
+# Panduan Instalasi MPD Client-Server di Linux
+Sebelum melakukan instalasi MPD Client-Server, masuk ke dalam terminal Linux dan ketik Syntax berikut. Lalu masukkan password linux anda:
 ```
 sudo apt update
 ```
@@ -16,7 +16,7 @@ Kemudian Konfigurasi MPD Server menggunakan Syntax berikut:
 sudo nano /etc/mpd.conf
 ```
 ### 1.3 Setup Direktori Musik
-Setelah masuk ke dalam nano MPD langkah selanjutnya adalah mencari dan mengedit ```music_directory```. Cara cepatnya adalah masuk ke menu pencarian nano MPD dengan menekan ```CTRL + W``` lalu ketik ```music_directory```, dan tekan ```Enter```. Selanjutnya ganti Path sesuai dengan folder musik yang ada pada Linux Debian anda. Misal path yang awanya seperti ini:
+Setelah masuk ke dalam nano MPD langkah selanjutnya adalah mencari dan mengedit ```music_directory```. Cara cepatnya adalah masuk ke menu pencarian nano MPD dengan menekan ```CTRL + W``` lalu ketik ```music_directory```, dan tekan ```Enter```. Selanjutnya ganti Path sesuai dengan folder musik yang ada pada Linux  anda. Misal path yang awanya seperti ini:
 ```
 music_directory    "/var/lib/mpd/music"
 ```
